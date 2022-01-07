@@ -1,0 +1,23 @@
+.list-links {
+    margin-top: 30px;
+    .box {
+      display: grid;
+      grid-template-columns: auto 100px;
+      width: 100%;
+      align-content: center;
+      &__links {
+        padding-top: 10px;
+        .panel-icon {
+          margin-top: 5px;
+        }
+      }
+  
+      &__empty {
+        width: 100%;
+      }
+  
+      &.inline {
+        display: inline-block;
+      }
+    }
+  }
